@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "todo_app (prod - release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main/main_prod.dart",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "todo_app (dev - release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "todo_app (prod - debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main/main_prod.dart",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "todo_app (dev - debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "program": "lib/main/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    }
+  ]
+}
